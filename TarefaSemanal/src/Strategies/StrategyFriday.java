@@ -1,3 +1,4 @@
+package Strategies;
 public class StrategyFriday implements Strategy {
     
     public void execute(String user, String info){
