@@ -6,13 +6,13 @@ public class FactoryStrat {
 
     public FactoryStrat() {
         strategies = new HashMap<>();
-        strategies.put("Monday", new StrategyMonday());
-        strategies.put("Tuesday", new StrategyTuesday());
-        strategies.put("Wednesday", new StrategyWednesday());
-        strategies.put("Thursday", new StrategyThursday());
-        strategies.put("Friday", new StrategyFriday());
-        strategies.put("Saturday", new StrategySaturday());
-        strategies.put("Sunday", new StrategySunday());
+        strategies.put("MONDAY", new StrategyMonday());
+        strategies.put("TUESDAY", new StrategyTuesday());
+        strategies.put("WEDNESDAY", new StrategyWednesday());
+        strategies.put("THURSDAY", new StrategyThursday());
+        strategies.put("FRIDAY", new StrategyFriday());
+        strategies.put("SATURDAY", new StrategySaturday());
+        strategies.put("SUNDAY", new StrategySunday());
     }
 
     public Strategy getStrategy(String day) {
