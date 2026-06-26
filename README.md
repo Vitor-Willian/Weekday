@@ -36,3 +36,5 @@ forma segura?
 3. Explique brevemente como esse padrão seria incorporado à solução.
 > O padrão Null Object cria uma classe concreta que vai implementar a mesma interface que as estrategias dos dias, mas que ao invés de criar uma nova estratégia, ele apenas exibirá uma mensagem de invalidação de entrada, assim evitando um possivel erro no código por conta de uma entrada invalida. No caso do nosso projeto, essa classe seria a StrategyNeutral que exibe a mensagem de "DIA DA SEMANA INVÁLIDO".
 
+>Fonte: https://www.baeldung.com/java-null-object-pattern
+
